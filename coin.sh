@@ -13,3 +13,8 @@ for i in {1..3}; do
     fi
 done
 echo "Heads: $h, Tails: $t"
+if [ $h -gt $t ] ; then
+    echo "you win"
+else
+    echo "you lost"
+fi
