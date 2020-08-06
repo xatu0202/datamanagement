@@ -18,7 +18,7 @@ for i in {1..3}; do
 done
 echo "Heads: $h, Tails: $t"
 if [ $h -gt $t ] ; then
-    echo "you win"
+    echo "$name win"
 else
-    echo "you lost"
+    echo "$name lost"
 fi
